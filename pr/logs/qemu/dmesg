@@ -1,0 +1,168 @@
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+[    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+[    0.000000] CPU: VIVT data cache, VIVT instruction cache
+[    0.000000] Machine: ARM-Versatile PB
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 32768
+[    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+[    0.000000]   Normal zone: 256 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+[    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+[    0.000000] Kernel command line: root=/dev/sda1
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Memory: 128MB = 128MB total
+[    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+[    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+[    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+[    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+[    0.000000] NR_IRQS:192
+[    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+[    0.000000] Console: colour dummy device 80x30
+[    0.000000] console [tty0] enabled
+[    0.016165] Calibrating delay loop... 1093.63 BogoMIPS (lpj=5468160)
+[    0.164617] pid_max: default: 32768 minimum: 301
+[    0.167105] Security Framework initialized
+[    0.168620] Mount-cache hash table entries: 512
+[    0.176077] Initializing cgroup subsys cpuacct
+[    0.176141] Initializing cgroup subsys memory
+[    0.176327] Initializing cgroup subsys devices
+[    0.176375] Initializing cgroup subsys freezer
+[    0.176409] Initializing cgroup subsys net_cls
+[    0.176442] Initializing cgroup subsys blkio
+[    0.176482] Initializing cgroup subsys perf_event
+[    0.177147] CPU: Testing write buffer coherency: ok
+[    0.186087] devtmpfs: initialized
+[    0.191161] print_constraints: dummy: 
+[    0.193798] NET: Registered protocol family 16
+[    0.198010] Serial: AMBA PL011 UART driver
+[    0.198869] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+[    0.200093] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+[    0.200397] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+[    0.200682] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+[    0.201434] PCI core found (slot 11)
+[    0.202324] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+[    0.202627] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+[    0.202667] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+[    0.202682] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+[    0.203148] PCI: bus0: Fast back to back transfers disabled
+[    0.203645] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+[    0.204460] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+[    0.204600] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+[    0.204640] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+[    0.211095] bio: create slab <bio-0> at 0
+[    0.214126] vgaarb: loaded
+[    0.218238] Registered led device: versatile:0
+[    0.218360] Registered led device: versatile:1
+[    0.218447] Registered led device: versatile:2
+[    0.218540] Registered led device: versatile:3
+[    0.218625] Registered led device: versatile:4
+[    0.218719] Registered led device: versatile:5
+[    0.218825] Registered led device: versatile:6
+[    0.218991] Registered led device: versatile:7
+[    0.219049] Switching to clocksource timer3
+[    0.250060] NET: Registered protocol family 2
+[    0.252317] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.257627] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.257736] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.257826] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.257883] TCP reno registered
+[    0.257932] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.258009] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.259860] NET: Registered protocol family 1
+[    0.260046] PCI: CLS 32 bytes, default 32
+[    0.261476] Unpacking initramfs...
+[    0.490775] Freeing initrd memory: 2524K
+[    0.490887] NetWinder Floating Point Emulator V0.97 (double precision)
+[    0.494261] audit: initializing netlink socket (disabled)
+[    0.494765] type=2000 audit(0.460:1): initialized
+[    0.504155] VFS: Disk quotas dquot_6.5.2
+[    0.505110] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.505851] msgmni has been set to 245
+[    0.510638] alg: No test for stdrng (krng)
+[    0.511450] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    0.511604] io scheduler noop registered
+[    0.511643] io scheduler deadline registered
+[    0.512826] io scheduler cfq registered (default)
+[    0.513957] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+[    0.515253] clcd-pl11x dev:20: Versatile hardware, VGA display
+[    0.554057] Console: switching to colour frame buffer device 80x30
+[    0.561391] mousedev: PS/2 mouse device common for all mice
+[    0.565117] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+[    0.572880] TCP cubic registered
+[    0.576180] NET: Registered protocol family 17
+[    0.577665] Registering the dns_resolver key type
+[    0.580445] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+[    0.588752] registered taskstats version 1
+[    0.591650] rtc-pl031 dev:e8: setting system clock to 2020-08-12 12:23:11 UTC (1597234991)
+[    0.594754] Initializing network drop monitor service
+[    0.601071] Freeing init memory: 120K
+[    0.661160] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+[    0.966255] udevd[42]: starting version 175
+[    1.516129] SCSI subsystem initialized
+[    1.523431] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+[    1.561930] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+[    1.580582] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+[    1.589857] sym0: SCSI BUS has been reset.
+[    1.592270] scsi0 : sym-2.2.3
+[    4.575507] sym0: unknown interrupt(s) ignored, ISTAT=0x5 DSTAT=0x80 SIST=0x0
+[    4.580169] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+[    4.583288] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+[    4.587748] scsi target0:0:0: Beginning Domain Validation
+[    4.590498] scsi target0:0:0: Domain Validation skipping write tests
+[    4.592359] scsi target0:0:0: Ending Domain Validation
+[    4.596669] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+[    4.599626] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+[    4.602690] scsi target0:0:2: Beginning Domain Validation
+[    4.605277] scsi target0:0:2: Domain Validation skipping write tests
+[    4.606770] scsi target0:0:2: Ending Domain Validation
+[    4.705646] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+[    4.710403] sd 0:0:0:0: [sda] Write Protect is off
+[    4.712067] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+[    4.712578] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    4.761472]  sda: sda1 sda2 < sda5 >
+[    4.769322] sd 0:0:0:0: [sda] Attached SCSI disk
+[    5.244352] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+[    5.248406] EXT4-fs (sda1): write access will be enabled during recovery
+[    5.699913] EXT4-fs (sda1): recovery complete
+[    5.705543] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+[    8.928822] udevd[270]: starting version 175
+[   10.436917] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+[   10.443775] cdrom: Uniform CD-ROM driver Revision: 3.20
+[   10.512900] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+[   10.531932] eth0: SMC91C11xFD (rev 1) at c89aa000 IRQ 25 [nowait]
+[   10.533893] eth0: Ethernet addr: 52:54:00:12:34:56
+[   10.535795] eth0: No PHY found
+[   10.575211] sr 0:0:2:0: Attached scsi CD-ROM sr0
+[   10.927292] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   10.952256] sr 0:0:2:0: Attached scsi generic sg1 type 5
+[   11.015675] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+[   11.392909] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+[   11.394876] rtc-ds1307 0-0068: 56 bytes nvram
+[   16.313648] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+[   16.676518] EXT4-fs (sda1): re-mounted. Opts: (null)
+[   17.484478] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+[   18.710765] loop: module loaded
+[   37.329590] NET: Registered protocol family 10
+[   37.921804] eth0: link up
+[   39.971544] RPC: Registered named UNIX socket transport module.
+[   39.976014] RPC: Registered udp transport module.
+[   39.977347] RPC: Registered tcp transport module.
+[   39.978670] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[   40.070468] FS-Cache: Loaded
+[   40.123181] FS-Cache: Netfs 'nfs' registered for caching
+[   40.178205] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).

@@ -1,0 +1,1053 @@
+Aug 10 12:56:47 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 10 12:56:47 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1966" x-info="http://www.rsyslog.com"] start
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 10 12:56:47 debian-armel kernel: [    0.019093] Calibrating delay loop... 895.79 BogoMIPS (lpj=4478976)
+Aug 10 12:56:47 debian-armel kernel: [    0.167269] pid_max: default: 32768 minimum: 301
+Aug 10 12:56:47 debian-armel kernel: [    0.174367] Security Framework initialized
+Aug 10 12:56:47 debian-armel kernel: [    0.177024] Mount-cache hash table entries: 512
+Aug 10 12:56:47 debian-armel kernel: [    0.183885] Initializing cgroup subsys cpuacct
+Aug 10 12:56:47 debian-armel kernel: [    0.183995] Initializing cgroup subsys memory
+Aug 10 12:56:47 debian-armel kernel: [    0.184305] Initializing cgroup subsys devices
+Aug 10 12:56:47 debian-armel kernel: [    0.184383] Initializing cgroup subsys freezer
+Aug 10 12:56:47 debian-armel kernel: [    0.184433] Initializing cgroup subsys net_cls
+Aug 10 12:56:47 debian-armel kernel: [    0.184491] Initializing cgroup subsys blkio
+Aug 10 12:56:47 debian-armel kernel: [    0.184553] Initializing cgroup subsys perf_event
+Aug 10 12:56:47 debian-armel kernel: [    0.185683] CPU: Testing write buffer coherency: ok
+Aug 10 12:56:47 debian-armel kernel: [    0.200206] devtmpfs: initialized
+Aug 10 12:56:47 debian-armel kernel: [    0.208849] print_constraints: dummy: 
+Aug 10 12:56:47 debian-armel kernel: [    0.211663] NET: Registered protocol family 16
+Aug 10 12:56:47 debian-armel kernel: [    0.218258] Serial: AMBA PL011 UART driver
+Aug 10 12:56:47 debian-armel kernel: [    0.219488] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 10 12:56:47 debian-armel kernel: [    0.221478] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 10 12:56:47 debian-armel kernel: [    0.221986] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 10 12:56:47 debian-armel kernel: [    0.222464] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 10 12:56:47 debian-armel kernel: [    0.223473] PCI core found (slot 11)
+Aug 10 12:56:47 debian-armel kernel: [    0.224791] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 12:56:47 debian-armel kernel: [    0.225283] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.225345] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.225367] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 12:56:47 debian-armel kernel: [    0.226154] PCI: bus0: Fast back to back transfers disabled
+Aug 10 12:56:47 debian-armel kernel: [    0.227024] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 10 12:56:47 debian-armel kernel: [    0.227697] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 10 12:56:47 debian-armel kernel: [    0.227876] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.227931] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.238639] bio: create slab <bio-0> at 0
+Aug 10 12:56:47 debian-armel kernel: [    0.244042] vgaarb: loaded
+Aug 10 12:56:47 debian-armel kernel: [    0.248960] Registered led device: versatile:0
+Aug 10 12:56:47 debian-armel kernel: [    0.249144] Registered led device: versatile:1
+Aug 10 12:56:47 debian-armel kernel: [    0.249266] Registered led device: versatile:2
+Aug 10 12:56:47 debian-armel kernel: [    0.249532] Registered led device: versatile:3
+Aug 10 12:56:47 debian-armel kernel: [    0.249665] Registered led device: versatile:4
+Aug 10 12:56:47 debian-armel kernel: [    0.249800] Registered led device: versatile:5
+Aug 10 12:56:47 debian-armel kernel: [    0.249932] Registered led device: versatile:6
+Aug 10 12:56:47 debian-armel kernel: [    0.250096] Registered led device: versatile:7
+Aug 10 12:56:47 debian-armel kernel: [    0.250190] Switching to clocksource timer3
+Aug 10 12:56:47 debian-armel kernel: [    0.297312] NET: Registered protocol family 2
+Aug 10 12:56:47 debian-armel kernel: [    0.300735] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.307532] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.307667] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.307794] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 10 12:56:47 debian-armel kernel: [    0.307889] TCP reno registered
+Aug 10 12:56:47 debian-armel kernel: [    0.307961] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.308075] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.311267] NET: Registered protocol family 1
+Aug 10 12:56:47 debian-armel kernel: [    0.311580] PCI: CLS 32 bytes, default 32
+Aug 10 12:56:47 debian-armel kernel: [    0.313927] Unpacking initramfs...
+Aug 10 12:56:47 debian-armel kernel: [    0.547869] Freeing initrd memory: 2524K
+Aug 10 12:56:47 debian-armel kernel: [    0.547960] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 10 12:56:47 debian-armel kernel: [    0.553315] audit: initializing netlink socket (disabled)
+Aug 10 12:56:47 debian-armel kernel: [    0.553825] type=2000 audit(0.520:1): initialized
+Aug 10 12:56:47 debian-armel kernel: [    0.569318] VFS: Disk quotas dquot_6.5.2
+Aug 10 12:56:47 debian-armel kernel: [    0.570383] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 10 12:56:47 debian-armel kernel: [    0.571429] msgmni has been set to 245
+Aug 10 12:56:47 debian-armel kernel: [    0.578829] alg: No test for stdrng (krng)
+Aug 10 12:56:47 debian-armel kernel: [    0.580169] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 10 12:56:47 debian-armel kernel: [    0.580359] io scheduler noop registered
+Aug 10 12:56:47 debian-armel kernel: [    0.580413] io scheduler deadline registered
+Aug 10 12:56:47 debian-armel kernel: [    0.582309] io scheduler cfq registered (default)
+Aug 10 12:56:47 debian-armel kernel: [    0.584057] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 10 12:56:47 debian-armel kernel: [    0.585410] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 10 12:56:47 debian-armel kernel: [    0.622238] Console: switching to colour frame buffer device 80x30
+Aug 10 12:56:47 debian-armel kernel: [    0.631939] mousedev: PS/2 mouse device common for all mice
+Aug 10 12:56:47 debian-armel kernel: [    0.637731] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 10 12:56:47 debian-armel kernel: [    0.643550] TCP cubic registered
+Aug 10 12:56:47 debian-armel kernel: [    0.646665] NET: Registered protocol family 17
+Aug 10 12:56:47 debian-armel kernel: [    0.649150] Registering the dns_resolver key type
+Aug 10 12:56:47 debian-armel kernel: [    0.651437] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 10 12:56:47 debian-armel kernel: [    0.656267] registered taskstats version 1
+Aug 10 12:56:47 debian-armel kernel: [    0.659049] rtc-pl031 dev:e8: setting system clock to 2020-08-10 12:55:36 UTC (1597064136)
+Aug 10 12:56:47 debian-armel kernel: [    0.662603] Initializing network drop monitor service
+Aug 10 12:56:47 debian-armel kernel: [    0.677578] Freeing init memory: 120K
+Aug 10 12:56:47 debian-armel kernel: [    0.739479] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 10 12:56:47 debian-armel kernel: [    1.938735] SCSI subsystem initialized
+Aug 10 12:56:47 debian-armel kernel: [    1.992891] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 10 12:56:47 debian-armel kernel: [    2.015227] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 10 12:56:47 debian-armel kernel: [    2.038804] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 10 12:56:47 debian-armel kernel: [    2.049137] sym0: SCSI BUS has been reset.
+Aug 10 12:56:47 debian-armel kernel: [    2.051038] scsi0 : sym-2.2.3
+Aug 10 12:56:47 debian-armel kernel: [    5.081288] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 10 12:56:47 debian-armel kernel: [    5.087116] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 10 12:56:47 debian-armel kernel: [    5.092578] scsi target0:0:0: Beginning Domain Validation
+Aug 10 12:56:47 debian-armel kernel: [    5.098654] scsi target0:0:0: Domain Validation skipping write tests
+Aug 10 12:56:47 debian-armel kernel: [    5.101077] scsi target0:0:0: Ending Domain Validation
+Aug 10 12:56:47 debian-armel kernel: [    5.110688] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 10 12:56:47 debian-armel kernel: [    5.114133] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 10 12:56:47 debian-armel kernel: [    5.118351] scsi target0:0:2: Beginning Domain Validation
+Aug 10 12:56:47 debian-armel kernel: [    5.121087] scsi target0:0:2: Domain Validation skipping write tests
+Aug 10 12:56:47 debian-armel kernel: [    5.123235] scsi target0:0:2: Ending Domain Validation
+Aug 10 12:56:47 debian-armel kernel: [    5.311421] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 10 12:56:47 debian-armel kernel: [    5.316380] sd 0:0:0:0: [sda] Write Protect is off
+Aug 10 12:56:47 debian-armel kernel: [    5.318153] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 12:56:47 debian-armel kernel: [    5.326973] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 10 12:56:47 debian-armel kernel: [    5.356619]  sda: sda1 sda2 < sda5 >
+Aug 10 12:56:47 debian-armel kernel: [    5.381983] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 10 12:56:47 debian-armel kernel: [    6.010361] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 10 12:56:47 debian-armel kernel: [   13.785973] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 10 12:56:47 debian-armel kernel: [   13.791957] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 10 12:56:47 debian-armel kernel: [   13.863769] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 10 12:56:47 debian-armel kernel: [   13.897194] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 12:56:47 debian-armel kernel: [   14.024091] eth0: SMC91C11xFD (rev 1) at c89aa000 IRQ 25 [nowait]
+Aug 10 12:56:47 debian-armel kernel: [   14.030466] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 10 12:56:47 debian-armel kernel: [   14.033016] eth0: No PHY found
+Aug 10 12:56:47 debian-armel kernel: [   14.228674] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 10 12:56:47 debian-armel kernel: [   14.511206] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 10 12:56:47 debian-armel kernel: [   14.524050] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 10 12:56:47 debian-armel kernel: [   15.330804] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 10 12:56:47 debian-armel kernel: [   15.336031] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 10 12:56:47 debian-armel kernel: [   23.170392] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 10 12:56:47 debian-armel kernel: [   23.726842] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 10 12:56:47 debian-armel kernel: [   24.899573] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 10 12:56:47 debian-armel kernel: [   27.616841] loop: module loaded
+Aug 10 12:56:47 debian-armel kernel: [   55.077232] NET: Registered protocol family 10
+Aug 10 12:56:47 debian-armel kernel: [   55.994655] eth0: link up
+Aug 10 12:56:47 debian-armel kernel: [   60.299241] RPC: Registered named UNIX socket transport module.
+Aug 10 12:56:47 debian-armel kernel: [   60.304689] RPC: Registered udp transport module.
+Aug 10 12:56:47 debian-armel kernel: [   60.306473] RPC: Registered tcp transport module.
+Aug 10 12:56:47 debian-armel kernel: [   60.308260] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 10 12:56:47 debian-armel kernel: [   60.388568] FS-Cache: Loaded
+Aug 10 12:56:47 debian-armel kernel: [   60.448312] FS-Cache: Netfs 'nfs' registered for caching
+Aug 10 12:56:47 debian-armel kernel: [   60.552873] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 10 12:56:50 debian-armel /usr/sbin/cron[2026]: (CRON) INFO (pidfile fd = 3)
+Aug 10 12:56:50 debian-armel /usr/sbin/cron[2029]: (CRON) STARTUP (fork ok)
+Aug 10 12:56:50 debian-armel /usr/sbin/cron[2029]: (CRON) INFO (Running @reboot jobs)
+Aug 10 13:17:01 debian-armel /USR/SBIN/CRON[2518]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 10 13:38:08 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 10 13:38:08 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1938" x-info="http://www.rsyslog.com"] start
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 10 13:38:08 debian-armel kernel: [    0.024847] Calibrating delay loop... 689.35 BogoMIPS (lpj=3446784)
+Aug 10 13:38:08 debian-armel kernel: [    0.211084] pid_max: default: 32768 minimum: 301
+Aug 10 13:38:08 debian-armel kernel: [    0.220265] Security Framework initialized
+Aug 10 13:38:08 debian-armel kernel: [    0.223048] Mount-cache hash table entries: 512
+Aug 10 13:38:08 debian-armel kernel: [    0.232230] Initializing cgroup subsys cpuacct
+Aug 10 13:38:08 debian-armel kernel: [    0.232355] Initializing cgroup subsys memory
+Aug 10 13:38:08 debian-armel kernel: [    0.232674] Initializing cgroup subsys devices
+Aug 10 13:38:08 debian-armel kernel: [    0.232752] Initializing cgroup subsys freezer
+Aug 10 13:38:08 debian-armel kernel: [    0.232809] Initializing cgroup subsys net_cls
+Aug 10 13:38:08 debian-armel kernel: [    0.232868] Initializing cgroup subsys blkio
+Aug 10 13:38:08 debian-armel kernel: [    0.232934] Initializing cgroup subsys perf_event
+Aug 10 13:38:08 debian-armel kernel: [    0.234303] CPU: Testing write buffer coherency: ok
+Aug 10 13:38:08 debian-armel kernel: [    0.254474] devtmpfs: initialized
+Aug 10 13:38:08 debian-armel kernel: [    0.265283] print_constraints: dummy: 
+Aug 10 13:38:08 debian-armel kernel: [    0.269263] NET: Registered protocol family 16
+Aug 10 13:38:08 debian-armel kernel: [    0.275626] Serial: AMBA PL011 UART driver
+Aug 10 13:38:08 debian-armel kernel: [    0.277262] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 10 13:38:08 debian-armel kernel: [    0.280837] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 10 13:38:08 debian-armel kernel: [    0.281589] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 10 13:38:08 debian-armel kernel: [    0.282200] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 10 13:38:08 debian-armel kernel: [    0.283428] PCI core found (slot 11)
+Aug 10 13:38:08 debian-armel kernel: [    0.285130] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 13:38:08 debian-armel kernel: [    0.285851] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.285936] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.285961] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 13:38:08 debian-armel kernel: [    0.286902] PCI: bus0: Fast back to back transfers disabled
+Aug 10 13:38:08 debian-armel kernel: [    0.287819] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 10 13:38:08 debian-armel kernel: [    0.288504] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 10 13:38:08 debian-armel kernel: [    0.288681] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.288735] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.308561] bio: create slab <bio-0> at 0
+Aug 10 13:38:08 debian-armel kernel: [    0.318322] vgaarb: loaded
+Aug 10 13:38:08 debian-armel kernel: [    0.323837] Registered led device: versatile:0
+Aug 10 13:38:08 debian-armel kernel: [    0.324018] Registered led device: versatile:1
+Aug 10 13:38:08 debian-armel kernel: [    0.324138] Registered led device: versatile:2
+Aug 10 13:38:08 debian-armel kernel: [    0.324266] Registered led device: versatile:3
+Aug 10 13:38:08 debian-armel kernel: [    0.324383] Registered led device: versatile:4
+Aug 10 13:38:08 debian-armel kernel: [    0.324512] Registered led device: versatile:5
+Aug 10 13:38:08 debian-armel kernel: [    0.324632] Registered led device: versatile:6
+Aug 10 13:38:08 debian-armel kernel: [    0.324806] Registered led device: versatile:7
+Aug 10 13:38:08 debian-armel kernel: [    0.324902] Switching to clocksource timer3
+Aug 10 13:38:08 debian-armel kernel: [    0.384783] NET: Registered protocol family 2
+Aug 10 13:38:08 debian-armel kernel: [    0.388322] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.397445] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.397763] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.398067] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 10 13:38:08 debian-armel kernel: [    0.398267] TCP reno registered
+Aug 10 13:38:08 debian-armel kernel: [    0.398353] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.398506] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.402106] NET: Registered protocol family 1
+Aug 10 13:38:08 debian-armel kernel: [    0.402489] PCI: CLS 32 bytes, default 32
+Aug 10 13:38:08 debian-armel kernel: [    0.404855] Unpacking initramfs...
+Aug 10 13:38:08 debian-armel kernel: [    0.668573] Freeing initrd memory: 2524K
+Aug 10 13:38:08 debian-armel kernel: [    0.668664] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 10 13:38:08 debian-armel kernel: [    0.674325] audit: initializing netlink socket (disabled)
+Aug 10 13:38:08 debian-armel kernel: [    0.674877] type=2000 audit(0.640:1): initialized
+Aug 10 13:38:08 debian-armel kernel: [    0.692180] VFS: Disk quotas dquot_6.5.2
+Aug 10 13:38:08 debian-armel kernel: [    0.693296] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 10 13:38:08 debian-armel kernel: [    0.694379] msgmni has been set to 245
+Aug 10 13:38:08 debian-armel kernel: [    0.704382] alg: No test for stdrng (krng)
+Aug 10 13:38:08 debian-armel kernel: [    0.706027] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 10 13:38:08 debian-armel kernel: [    0.706255] io scheduler noop registered
+Aug 10 13:38:08 debian-armel kernel: [    0.706304] io scheduler deadline registered
+Aug 10 13:38:08 debian-armel kernel: [    0.708283] io scheduler cfq registered (default)
+Aug 10 13:38:08 debian-armel kernel: [    0.710217] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 10 13:38:08 debian-armel kernel: [    0.711653] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 10 13:38:08 debian-armel kernel: [    0.748071] Console: switching to colour frame buffer device 80x30
+Aug 10 13:38:08 debian-armel kernel: [    0.757338] mousedev: PS/2 mouse device common for all mice
+Aug 10 13:38:08 debian-armel kernel: [    0.764876] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 10 13:38:08 debian-armel kernel: [    0.769630] TCP cubic registered
+Aug 10 13:38:08 debian-armel kernel: [    0.771394] NET: Registered protocol family 17
+Aug 10 13:38:08 debian-armel kernel: [    0.774466] Registering the dns_resolver key type
+Aug 10 13:38:08 debian-armel kernel: [    0.776678] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 10 13:38:08 debian-armel kernel: [    0.782075] registered taskstats version 1
+Aug 10 13:38:08 debian-armel kernel: [    0.785281] rtc-pl031 dev:e8: setting system clock to 2020-08-10 13:36:56 UTC (1597066616)
+Aug 10 13:38:08 debian-armel kernel: [    0.788952] Initializing network drop monitor service
+Aug 10 13:38:08 debian-armel kernel: [    0.800139] Freeing init memory: 120K
+Aug 10 13:38:08 debian-armel kernel: [    0.865001] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 10 13:38:08 debian-armel kernel: [    2.241048] SCSI subsystem initialized
+Aug 10 13:38:08 debian-armel kernel: [    2.268082] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 10 13:38:08 debian-armel kernel: [    2.272321] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 10 13:38:08 debian-armel kernel: [    2.327018] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 10 13:38:08 debian-armel kernel: [    2.336533] sym0: SCSI BUS has been reset.
+Aug 10 13:38:08 debian-armel kernel: [    2.338794] scsi0 : sym-2.2.3
+Aug 10 13:38:08 debian-armel kernel: [    5.326912] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 10 13:38:08 debian-armel kernel: [    5.332876] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 10 13:38:08 debian-armel kernel: [    5.338076] scsi target0:0:0: Beginning Domain Validation
+Aug 10 13:38:08 debian-armel kernel: [    5.344027] scsi target0:0:0: Domain Validation skipping write tests
+Aug 10 13:38:08 debian-armel kernel: [    5.346267] scsi target0:0:0: Ending Domain Validation
+Aug 10 13:38:08 debian-armel kernel: [    5.359655] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 10 13:38:08 debian-armel kernel: [    5.369272] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 10 13:38:08 debian-armel kernel: [    5.373570] scsi target0:0:2: Beginning Domain Validation
+Aug 10 13:38:08 debian-armel kernel: [    5.376057] scsi target0:0:2: Domain Validation skipping write tests
+Aug 10 13:38:08 debian-armel kernel: [    5.377960] scsi target0:0:2: Ending Domain Validation
+Aug 10 13:38:08 debian-armel kernel: [    5.609725] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 10 13:38:08 debian-armel kernel: [    5.622209] sd 0:0:0:0: [sda] Write Protect is off
+Aug 10 13:38:08 debian-armel kernel: [    5.624209] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 13:38:08 debian-armel kernel: [    5.632867] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 10 13:38:08 debian-armel kernel: [    5.663706]  sda: sda1 sda2 < sda5 >
+Aug 10 13:38:08 debian-armel kernel: [    5.688181] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 10 13:38:08 debian-armel kernel: [    6.560156] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Aug 10 13:38:08 debian-armel kernel: [    6.564874] EXT4-fs (sda1): write access will be enabled during recovery
+Aug 10 13:38:08 debian-armel kernel: [    7.114797] EXT4-fs (sda1): recovery complete
+Aug 10 13:38:08 debian-armel kernel: [    7.118967] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 10 13:38:08 debian-armel kernel: [   15.499015] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 10 13:38:08 debian-armel kernel: [   15.506207] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 10 13:38:08 debian-armel kernel: [   15.680627] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 13:38:08 debian-armel kernel: [   15.878002] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 10 13:38:08 debian-armel kernel: [   16.054694] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 10 13:38:08 debian-armel kernel: [   16.076580] eth0: SMC91C11xFD (rev 1) at c89a6000 IRQ 25 [nowait]
+Aug 10 13:38:08 debian-armel kernel: [   16.079525] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 10 13:38:08 debian-armel kernel: [   16.081713] eth0: No PHY found
+Aug 10 13:38:08 debian-armel kernel: [   16.622438] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 10 13:38:08 debian-armel kernel: [   16.642663] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 10 13:38:08 debian-armel kernel: [   17.836913] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 10 13:38:08 debian-armel kernel: [   17.840372] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 10 13:38:08 debian-armel kernel: [   25.212230] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 10 13:38:08 debian-armel kernel: [   25.860625] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 10 13:38:08 debian-armel kernel: [   27.014822] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 10 13:38:08 debian-armel kernel: [   28.878890] loop: module loaded
+Aug 10 13:38:08 debian-armel kernel: [   56.111104] NET: Registered protocol family 10
+Aug 10 13:38:08 debian-armel kernel: [   56.896743] eth0: link up
+Aug 10 13:38:08 debian-armel kernel: [   60.849186] RPC: Registered named UNIX socket transport module.
+Aug 10 13:38:08 debian-armel kernel: [   60.854077] RPC: Registered udp transport module.
+Aug 10 13:38:08 debian-armel kernel: [   60.855815] RPC: Registered tcp transport module.
+Aug 10 13:38:08 debian-armel kernel: [   60.857344] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 10 13:38:08 debian-armel kernel: [   60.933864] FS-Cache: Loaded
+Aug 10 13:38:08 debian-armel kernel: [   60.989902] FS-Cache: Netfs 'nfs' registered for caching
+Aug 10 13:38:08 debian-armel kernel: [   61.042565] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 10 13:38:10 debian-armel /usr/sbin/cron[1998]: (CRON) INFO (pidfile fd = 3)
+Aug 10 13:38:10 debian-armel /usr/sbin/cron[2000]: (CRON) STARTUP (fork ok)
+Aug 10 13:38:11 debian-armel /usr/sbin/cron[2000]: (CRON) INFO (Running @reboot jobs)
+Aug 10 13:44:17 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 10 13:44:17 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1943" x-info="http://www.rsyslog.com"] start
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 10 13:44:17 debian-armel kernel: [    0.022872] Calibrating delay loop... 872.85 BogoMIPS (lpj=4364288)
+Aug 10 13:44:17 debian-armel kernel: [    0.278345] pid_max: default: 32768 minimum: 301
+Aug 10 13:44:17 debian-armel kernel: [    0.282901] Security Framework initialized
+Aug 10 13:44:17 debian-armel kernel: [    0.285417] Mount-cache hash table entries: 512
+Aug 10 13:44:17 debian-armel kernel: [    0.292981] Initializing cgroup subsys cpuacct
+Aug 10 13:44:17 debian-armel kernel: [    0.293093] Initializing cgroup subsys memory
+Aug 10 13:44:17 debian-armel kernel: [    0.293389] Initializing cgroup subsys devices
+Aug 10 13:44:17 debian-armel kernel: [    0.293465] Initializing cgroup subsys freezer
+Aug 10 13:44:17 debian-armel kernel: [    0.293514] Initializing cgroup subsys net_cls
+Aug 10 13:44:17 debian-armel kernel: [    0.293572] Initializing cgroup subsys blkio
+Aug 10 13:44:17 debian-armel kernel: [    0.293633] Initializing cgroup subsys perf_event
+Aug 10 13:44:17 debian-armel kernel: [    0.295156] CPU: Testing write buffer coherency: ok
+Aug 10 13:44:17 debian-armel kernel: [    0.310328] devtmpfs: initialized
+Aug 10 13:44:17 debian-armel kernel: [    0.320069] print_constraints: dummy: 
+Aug 10 13:44:17 debian-armel kernel: [    0.323140] NET: Registered protocol family 16
+Aug 10 13:44:17 debian-armel kernel: [    0.329577] Serial: AMBA PL011 UART driver
+Aug 10 13:44:17 debian-armel kernel: [    0.330877] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 10 13:44:17 debian-armel kernel: [    0.332878] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 10 13:44:17 debian-armel kernel: [    0.333424] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 10 13:44:17 debian-armel kernel: [    0.333892] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 10 13:44:17 debian-armel kernel: [    0.335132] PCI core found (slot 11)
+Aug 10 13:44:17 debian-armel kernel: [    0.336829] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 13:44:17 debian-armel kernel: [    0.337359] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.337434] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.337458] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 13:44:17 debian-armel kernel: [    0.338291] PCI: bus0: Fast back to back transfers disabled
+Aug 10 13:44:17 debian-armel kernel: [    0.339318] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 10 13:44:17 debian-armel kernel: [    0.340030] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 10 13:44:17 debian-armel kernel: [    0.340206] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.340260] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.350901] bio: create slab <bio-0> at 0
+Aug 10 13:44:17 debian-armel kernel: [    0.356683] vgaarb: loaded
+Aug 10 13:44:17 debian-armel kernel: [    0.362257] Registered led device: versatile:0
+Aug 10 13:44:17 debian-armel kernel: [    0.362440] Registered led device: versatile:1
+Aug 10 13:44:17 debian-armel kernel: [    0.362560] Registered led device: versatile:2
+Aug 10 13:44:17 debian-armel kernel: [    0.362688] Registered led device: versatile:3
+Aug 10 13:44:17 debian-armel kernel: [    0.362805] Registered led device: versatile:4
+Aug 10 13:44:17 debian-armel kernel: [    0.362933] Registered led device: versatile:5
+Aug 10 13:44:17 debian-armel kernel: [    0.363053] Registered led device: versatile:6
+Aug 10 13:44:17 debian-armel kernel: [    0.363216] Registered led device: versatile:7
+Aug 10 13:44:17 debian-armel kernel: [    0.363303] Switching to clocksource timer3
+Aug 10 13:44:17 debian-armel kernel: [    0.411990] NET: Registered protocol family 2
+Aug 10 13:44:17 debian-armel kernel: [    0.415297] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.422204] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.422341] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.422463] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 10 13:44:17 debian-armel kernel: [    0.422557] TCP reno registered
+Aug 10 13:44:17 debian-armel kernel: [    0.422628] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.422739] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.426126] NET: Registered protocol family 1
+Aug 10 13:44:17 debian-armel kernel: [    0.426457] PCI: CLS 32 bytes, default 32
+Aug 10 13:44:17 debian-armel kernel: [    0.428826] Unpacking initramfs...
+Aug 10 13:44:17 debian-armel kernel: [    0.657760] Freeing initrd memory: 2524K
+Aug 10 13:44:17 debian-armel kernel: [    0.657853] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 10 13:44:17 debian-armel kernel: [    0.663628] audit: initializing netlink socket (disabled)
+Aug 10 13:44:17 debian-armel kernel: [    0.664154] type=2000 audit(0.630:1): initialized
+Aug 10 13:44:17 debian-armel kernel: [    0.680676] VFS: Disk quotas dquot_6.5.2
+Aug 10 13:44:17 debian-armel kernel: [    0.681777] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 10 13:44:17 debian-armel kernel: [    0.682900] msgmni has been set to 245
+Aug 10 13:44:17 debian-armel kernel: [    0.690900] alg: No test for stdrng (krng)
+Aug 10 13:44:17 debian-armel kernel: [    0.692468] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 10 13:44:17 debian-armel kernel: [    0.692694] io scheduler noop registered
+Aug 10 13:44:17 debian-armel kernel: [    0.692742] io scheduler deadline registered
+Aug 10 13:44:17 debian-armel kernel: [    0.694775] io scheduler cfq registered (default)
+Aug 10 13:44:17 debian-armel kernel: [    0.696588] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 10 13:44:17 debian-armel kernel: [    0.698021] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 10 13:44:17 debian-armel kernel: [    0.734465] Console: switching to colour frame buffer device 80x30
+Aug 10 13:44:17 debian-armel kernel: [    0.743072] mousedev: PS/2 mouse device common for all mice
+Aug 10 13:44:17 debian-armel kernel: [    0.748115] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 10 13:44:17 debian-armel kernel: [    0.752363] TCP cubic registered
+Aug 10 13:44:17 debian-armel kernel: [    0.753966] NET: Registered protocol family 17
+Aug 10 13:44:17 debian-armel kernel: [    0.755825] Registering the dns_resolver key type
+Aug 10 13:44:17 debian-armel kernel: [    0.758314] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 10 13:44:17 debian-armel kernel: [    0.767079] registered taskstats version 1
+Aug 10 13:44:17 debian-armel kernel: [    0.770351] rtc-pl031 dev:e8: setting system clock to 2020-08-10 13:43:06 UTC (1597066986)
+Aug 10 13:44:17 debian-armel kernel: [    0.775146] Initializing network drop monitor service
+Aug 10 13:44:17 debian-armel kernel: [    0.786911] Freeing init memory: 120K
+Aug 10 13:44:17 debian-armel kernel: [    0.842629] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 10 13:44:17 debian-armel kernel: [    2.116601] SCSI subsystem initialized
+Aug 10 13:44:17 debian-armel kernel: [    2.161240] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 10 13:44:17 debian-armel kernel: [    2.165295] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 10 13:44:17 debian-armel kernel: [    2.193144] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 10 13:44:17 debian-armel kernel: [    2.206207] sym0: SCSI BUS has been reset.
+Aug 10 13:44:17 debian-armel kernel: [    2.208274] scsi0 : sym-2.2.3
+Aug 10 13:44:17 debian-armel kernel: [    5.222327] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 10 13:44:17 debian-armel kernel: [    5.227997] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 10 13:44:17 debian-armel kernel: [    5.233515] scsi target0:0:0: Beginning Domain Validation
+Aug 10 13:44:17 debian-armel kernel: [    5.240899] scsi target0:0:0: Domain Validation skipping write tests
+Aug 10 13:44:17 debian-armel kernel: [    5.243083] scsi target0:0:0: Ending Domain Validation
+Aug 10 13:44:17 debian-armel kernel: [    5.254550] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 10 13:44:17 debian-armel kernel: [    5.259722] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 10 13:44:17 debian-armel kernel: [    5.263319] scsi target0:0:2: Beginning Domain Validation
+Aug 10 13:44:17 debian-armel kernel: [    5.266360] scsi target0:0:2: Domain Validation skipping write tests
+Aug 10 13:44:17 debian-armel kernel: [    5.268272] scsi target0:0:2: Ending Domain Validation
+Aug 10 13:44:17 debian-armel kernel: [    5.491321] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 10 13:44:17 debian-armel kernel: [    5.496213] sd 0:0:0:0: [sda] Write Protect is off
+Aug 10 13:44:17 debian-armel kernel: [    5.497942] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 13:44:17 debian-armel kernel: [    5.498398] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 10 13:44:17 debian-armel kernel: [    5.531554]  sda: sda1 sda2 < sda5 >
+Aug 10 13:44:17 debian-armel kernel: [    5.546013] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 10 13:44:17 debian-armel kernel: [    6.392950] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Aug 10 13:44:17 debian-armel kernel: [    6.395524] EXT4-fs (sda1): write access will be enabled during recovery
+Aug 10 13:44:17 debian-armel kernel: [    6.551118] EXT4-fs (sda1): orphan cleanup on readonly fs
+Aug 10 13:44:17 debian-armel kernel: [    6.553502] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175159
+Aug 10 13:44:17 debian-armel kernel: [    6.558796] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175237
+Aug 10 13:44:17 debian-armel kernel: [    6.559506] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175240
+Aug 10 13:44:17 debian-armel kernel: [    6.559922] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175162
+Aug 10 13:44:17 debian-armel kernel: [    6.560287] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175193
+Aug 10 13:44:17 debian-armel kernel: [    6.560471] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175161
+Aug 10 13:44:17 debian-armel kernel: [    6.560755] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175300
+Aug 10 13:44:17 debian-armel kernel: [    6.561047] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175617
+Aug 10 13:44:17 debian-armel kernel: [    6.561281] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175633
+Aug 10 13:44:17 debian-armel kernel: [    6.561450] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175639
+Aug 10 13:44:17 debian-armel kernel: [    6.561632] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175621
+Aug 10 13:44:17 debian-armel kernel: [    6.561797] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175652
+Aug 10 13:44:17 debian-armel kernel: [    6.562095] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175618
+Aug 10 13:44:17 debian-armel kernel: [    6.562350] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175640
+Aug 10 13:44:17 debian-armel kernel: [    6.562501] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175667
+Aug 10 13:44:17 debian-armel kernel: [    6.562647] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175638
+Aug 10 13:44:17 debian-armel kernel: [    6.562779] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175627
+Aug 10 13:44:17 debian-armel kernel: [    6.562916] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175641
+Aug 10 13:44:17 debian-armel kernel: [    6.563099] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175644
+Aug 10 13:44:17 debian-armel kernel: [    6.563253] EXT4-fs (sda1): 19 orphan inodes deleted
+Aug 10 13:44:17 debian-armel kernel: [    6.565158] EXT4-fs (sda1): recovery complete
+Aug 10 13:44:17 debian-armel kernel: [    6.581806] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 10 13:44:17 debian-armel kernel: [   13.872664] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 10 13:44:17 debian-armel kernel: [   13.878482] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 10 13:44:17 debian-armel kernel: [   13.962055] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 13:44:17 debian-armel kernel: [   14.011101] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 10 13:44:17 debian-armel kernel: [   14.167231] eth0: SMC91C11xFD (rev 1) at c89aa000 IRQ 25 [nowait]
+Aug 10 13:44:17 debian-armel kernel: [   14.169387] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 10 13:44:17 debian-armel kernel: [   14.171110] eth0: No PHY found
+Aug 10 13:44:17 debian-armel kernel: [   14.280855] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 10 13:44:17 debian-armel kernel: [   14.425241] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 10 13:44:17 debian-armel kernel: [   14.433578] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 10 13:44:17 debian-armel kernel: [   15.149917] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 10 13:44:17 debian-armel kernel: [   15.153225] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 10 13:44:17 debian-armel kernel: [   22.363843] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 10 13:44:17 debian-armel kernel: [   22.885097] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 10 13:44:17 debian-armel kernel: [   24.029207] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 10 13:44:17 debian-armel kernel: [   25.872027] loop: module loaded
+Aug 10 13:44:17 debian-armel kernel: [   55.132379] NET: Registered protocol family 10
+Aug 10 13:44:17 debian-armel kernel: [   56.066906] eth0: link up
+Aug 10 13:44:17 debian-armel kernel: [   60.403130] RPC: Registered named UNIX socket transport module.
+Aug 10 13:44:17 debian-armel kernel: [   60.407276] RPC: Registered udp transport module.
+Aug 10 13:44:17 debian-armel kernel: [   60.409009] RPC: Registered tcp transport module.
+Aug 10 13:44:17 debian-armel kernel: [   60.410668] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 10 13:44:17 debian-armel kernel: [   60.586025] FS-Cache: Loaded
+Aug 10 13:44:17 debian-armel kernel: [   60.650687] FS-Cache: Netfs 'nfs' registered for caching
+Aug 10 13:44:17 debian-armel kernel: [   60.769242] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 10 13:44:20 debian-armel /usr/sbin/cron[2003]: (CRON) INFO (pidfile fd = 3)
+Aug 10 13:44:20 debian-armel /usr/sbin/cron[2006]: (CRON) STARTUP (fork ok)
+Aug 10 13:44:20 debian-armel /usr/sbin/cron[2006]: (CRON) INFO (Running @reboot jobs)
+Aug 10 14:17:01 debian-armel /USR/SBIN/CRON[3359]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 10 14:30:04 debian-armel kernel: [ 2818.339646] Bridge firewalling registered
+Aug 10 15:17:04 debian-armel /USR/SBIN/CRON[3665]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 10 16:17:03 debian-armel /USR/SBIN/CRON[3674]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 10 17:17:03 debian-armel /USR/SBIN/CRON[3683]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 10 17:39:29 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 10 17:39:29 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1944" x-info="http://www.rsyslog.com"] start
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 10 17:39:29 debian-armel kernel: [    0.018451] Calibrating delay loop... 881.45 BogoMIPS (lpj=4407296)
+Aug 10 17:39:29 debian-armel kernel: [    0.165686] pid_max: default: 32768 minimum: 301
+Aug 10 17:39:29 debian-armel kernel: [    0.170005] Security Framework initialized
+Aug 10 17:39:29 debian-armel kernel: [    0.173086] Mount-cache hash table entries: 512
+Aug 10 17:39:29 debian-armel kernel: [    0.180236] Initializing cgroup subsys cpuacct
+Aug 10 17:39:29 debian-armel kernel: [    0.180351] Initializing cgroup subsys memory
+Aug 10 17:39:29 debian-armel kernel: [    0.180648] Initializing cgroup subsys devices
+Aug 10 17:39:29 debian-armel kernel: [    0.180723] Initializing cgroup subsys freezer
+Aug 10 17:39:29 debian-armel kernel: [    0.180772] Initializing cgroup subsys net_cls
+Aug 10 17:39:29 debian-armel kernel: [    0.180829] Initializing cgroup subsys blkio
+Aug 10 17:39:29 debian-armel kernel: [    0.180903] Initializing cgroup subsys perf_event
+Aug 10 17:39:29 debian-armel kernel: [    0.182037] CPU: Testing write buffer coherency: ok
+Aug 10 17:39:29 debian-armel kernel: [    0.197719] devtmpfs: initialized
+Aug 10 17:39:29 debian-armel kernel: [    0.206278] print_constraints: dummy: 
+Aug 10 17:39:29 debian-armel kernel: [    0.209437] NET: Registered protocol family 16
+Aug 10 17:39:29 debian-armel kernel: [    0.215297] Serial: AMBA PL011 UART driver
+Aug 10 17:39:29 debian-armel kernel: [    0.216696] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 10 17:39:29 debian-armel kernel: [    0.218729] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 10 17:39:29 debian-armel kernel: [    0.219248] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 10 17:39:29 debian-armel kernel: [    0.219730] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 10 17:39:29 debian-armel kernel: [    0.220785] PCI core found (slot 11)
+Aug 10 17:39:29 debian-armel kernel: [    0.222075] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 17:39:29 debian-armel kernel: [    0.222567] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.222629] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.222652] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 17:39:29 debian-armel kernel: [    0.223364] PCI: bus0: Fast back to back transfers disabled
+Aug 10 17:39:29 debian-armel kernel: [    0.224186] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 10 17:39:29 debian-armel kernel: [    0.225085] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 10 17:39:29 debian-armel kernel: [    0.225270] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.225324] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.237120] bio: create slab <bio-0> at 0
+Aug 10 17:39:29 debian-armel kernel: [    0.243370] vgaarb: loaded
+Aug 10 17:39:29 debian-armel kernel: [    0.248265] Registered led device: versatile:0
+Aug 10 17:39:29 debian-armel kernel: [    0.248439] Registered led device: versatile:1
+Aug 10 17:39:29 debian-armel kernel: [    0.248559] Registered led device: versatile:2
+Aug 10 17:39:29 debian-armel kernel: [    0.248688] Registered led device: versatile:3
+Aug 10 17:39:29 debian-armel kernel: [    0.248939] Registered led device: versatile:4
+Aug 10 17:39:29 debian-armel kernel: [    0.249154] Registered led device: versatile:5
+Aug 10 17:39:29 debian-armel kernel: [    0.249346] Registered led device: versatile:6
+Aug 10 17:39:29 debian-armel kernel: [    0.249543] Registered led device: versatile:7
+Aug 10 17:39:29 debian-armel kernel: [    0.249638] Switching to clocksource timer3
+Aug 10 17:39:29 debian-armel kernel: [    0.300588] NET: Registered protocol family 2
+Aug 10 17:39:29 debian-armel kernel: [    0.303923] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.311447] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.311591] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.311768] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 10 17:39:29 debian-armel kernel: [    0.311864] TCP reno registered
+Aug 10 17:39:29 debian-armel kernel: [    0.311936] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.312053] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.315978] NET: Registered protocol family 1
+Aug 10 17:39:29 debian-armel kernel: [    0.316328] PCI: CLS 32 bytes, default 32
+Aug 10 17:39:29 debian-armel kernel: [    0.319764] Unpacking initramfs...
+Aug 10 17:39:29 debian-armel kernel: [    0.566201] Freeing initrd memory: 2524K
+Aug 10 17:39:29 debian-armel kernel: [    0.566292] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 10 17:39:29 debian-armel kernel: [    0.571560] audit: initializing netlink socket (disabled)
+Aug 10 17:39:29 debian-armel kernel: [    0.572575] type=2000 audit(0.540:1): initialized
+Aug 10 17:39:29 debian-armel kernel: [    0.588494] VFS: Disk quotas dquot_6.5.2
+Aug 10 17:39:29 debian-armel kernel: [    0.589610] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 10 17:39:29 debian-armel kernel: [    0.590672] msgmni has been set to 245
+Aug 10 17:39:29 debian-armel kernel: [    0.598324] alg: No test for stdrng (krng)
+Aug 10 17:39:29 debian-armel kernel: [    0.599700] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 10 17:39:29 debian-armel kernel: [    0.599902] io scheduler noop registered
+Aug 10 17:39:29 debian-armel kernel: [    0.599960] io scheduler deadline registered
+Aug 10 17:39:29 debian-armel kernel: [    0.601897] io scheduler cfq registered (default)
+Aug 10 17:39:29 debian-armel kernel: [    0.603638] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 10 17:39:29 debian-armel kernel: [    0.605425] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 10 17:39:29 debian-armel kernel: [    0.641665] Console: switching to colour frame buffer device 80x30
+Aug 10 17:39:29 debian-armel kernel: [    0.651730] mousedev: PS/2 mouse device common for all mice
+Aug 10 17:39:29 debian-armel kernel: [    0.663305] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 10 17:39:29 debian-armel kernel: [    0.668948] TCP cubic registered
+Aug 10 17:39:29 debian-armel kernel: [    0.671554] NET: Registered protocol family 17
+Aug 10 17:39:29 debian-armel kernel: [    0.673803] Registering the dns_resolver key type
+Aug 10 17:39:29 debian-armel kernel: [    0.678327] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 10 17:39:29 debian-armel kernel: [    0.685523] registered taskstats version 1
+Aug 10 17:39:29 debian-armel kernel: [    0.690818] rtc-pl031 dev:e8: setting system clock to 2020-08-10 17:38:18 UTC (1597081098)
+Aug 10 17:39:29 debian-armel kernel: [    0.696055] Initializing network drop monitor service
+Aug 10 17:39:29 debian-armel kernel: [    0.708423] Freeing init memory: 120K
+Aug 10 17:39:29 debian-armel kernel: [    0.760206] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 10 17:39:29 debian-armel kernel: [    1.975121] SCSI subsystem initialized
+Aug 10 17:39:29 debian-armel kernel: [    2.005923] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 10 17:39:29 debian-armel kernel: [    2.033905] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 10 17:39:29 debian-armel kernel: [    2.059528] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 10 17:39:29 debian-armel kernel: [    2.069922] sym0: SCSI BUS has been reset.
+Aug 10 17:39:29 debian-armel kernel: [    2.071933] scsi0 : sym-2.2.3
+Aug 10 17:39:29 debian-armel kernel: [    5.060295] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 10 17:39:29 debian-armel kernel: [    5.065266] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 10 17:39:29 debian-armel kernel: [    5.071373] scsi target0:0:0: Beginning Domain Validation
+Aug 10 17:39:29 debian-armel kernel: [    5.077832] scsi target0:0:0: Domain Validation skipping write tests
+Aug 10 17:39:29 debian-armel kernel: [    5.079666] scsi target0:0:0: Ending Domain Validation
+Aug 10 17:39:29 debian-armel kernel: [    5.088449] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 10 17:39:29 debian-armel kernel: [    5.092049] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 10 17:39:29 debian-armel kernel: [    5.095469] scsi target0:0:2: Beginning Domain Validation
+Aug 10 17:39:29 debian-armel kernel: [    5.097952] scsi target0:0:2: Domain Validation skipping write tests
+Aug 10 17:39:29 debian-armel kernel: [    5.099631] scsi target0:0:2: Ending Domain Validation
+Aug 10 17:39:29 debian-armel kernel: [    5.281133] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 10 17:39:29 debian-armel kernel: [    5.297205] sd 0:0:0:0: [sda] Write Protect is off
+Aug 10 17:39:29 debian-armel kernel: [    5.299118] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 17:39:29 debian-armel kernel: [    5.299515] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 10 17:39:29 debian-armel kernel: [    5.331536]  sda: sda1 sda2 < sda5 >
+Aug 10 17:39:29 debian-armel kernel: [    5.357245] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 10 17:39:29 debian-armel kernel: [    6.051127] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Aug 10 17:39:29 debian-armel kernel: [    6.054762] EXT4-fs (sda1): write access will be enabled during recovery
+Aug 10 17:39:29 debian-armel kernel: [    6.635688] EXT4-fs (sda1): recovery complete
+Aug 10 17:39:29 debian-armel kernel: [    6.639193] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 10 17:39:29 debian-armel kernel: [   14.140077] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 10 17:39:29 debian-armel kernel: [   14.145451] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 10 17:39:29 debian-armel kernel: [   14.265496] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 10 17:39:29 debian-armel kernel: [   14.382917] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 17:39:29 debian-armel kernel: [   14.582193] eth0: SMC91C11xFD (rev 1) at c89ae000 IRQ 25 [nowait]
+Aug 10 17:39:29 debian-armel kernel: [   14.584242] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 10 17:39:29 debian-armel kernel: [   14.586148] eth0: No PHY found
+Aug 10 17:39:29 debian-armel kernel: [   14.637531] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 10 17:39:29 debian-armel kernel: [   14.909697] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 10 17:39:29 debian-armel kernel: [   14.925589] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 10 17:39:29 debian-armel kernel: [   15.831397] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 10 17:39:29 debian-armel kernel: [   15.834923] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 10 17:39:29 debian-armel kernel: [   23.410730] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 10 17:39:29 debian-armel kernel: [   24.016438] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 10 17:39:29 debian-armel kernel: [   25.210698] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 10 17:39:29 debian-armel kernel: [   27.000213] loop: module loaded
+Aug 10 17:39:29 debian-armel kernel: [   55.161655] NET: Registered protocol family 10
+Aug 10 17:39:29 debian-armel kernel: [   56.120226] eth0: link up
+Aug 10 17:39:29 debian-armel kernel: [   60.259401] RPC: Registered named UNIX socket transport module.
+Aug 10 17:39:29 debian-armel kernel: [   60.264105] RPC: Registered udp transport module.
+Aug 10 17:39:29 debian-armel kernel: [   60.265987] RPC: Registered tcp transport module.
+Aug 10 17:39:29 debian-armel kernel: [   60.267855] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 10 17:39:29 debian-armel kernel: [   60.354313] FS-Cache: Loaded
+Aug 10 17:39:29 debian-armel kernel: [   60.425013] FS-Cache: Netfs 'nfs' registered for caching
+Aug 10 17:39:29 debian-armel kernel: [   60.502407] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 10 17:39:32 debian-armel /usr/sbin/cron[2034]: (CRON) INFO (pidfile fd = 3)
+Aug 10 17:39:32 debian-armel /usr/sbin/cron[2042]: (CRON) STARTUP (fork ok)
+Aug 10 17:39:32 debian-armel /usr/sbin/cron[2042]: (CRON) INFO (Running @reboot jobs)
+Aug 12 05:17:18 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 12 05:17:18 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1918" x-info="http://www.rsyslog.com"] start
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 12 05:17:18 debian-armel kernel: [    0.012324] Calibrating delay loop... 1076.42 BogoMIPS (lpj=5382144)
+Aug 12 05:17:18 debian-armel kernel: [    0.151502] pid_max: default: 32768 minimum: 301
+Aug 12 05:17:18 debian-armel kernel: [    0.154132] Security Framework initialized
+Aug 12 05:17:18 debian-armel kernel: [    0.155740] Mount-cache hash table entries: 512
+Aug 12 05:17:18 debian-armel kernel: [    0.160122] Initializing cgroup subsys cpuacct
+Aug 12 05:17:18 debian-armel kernel: [    0.160210] Initializing cgroup subsys memory
+Aug 12 05:17:18 debian-armel kernel: [    0.160401] Initializing cgroup subsys devices
+Aug 12 05:17:18 debian-armel kernel: [    0.160450] Initializing cgroup subsys freezer
+Aug 12 05:17:18 debian-armel kernel: [    0.160484] Initializing cgroup subsys net_cls
+Aug 12 05:17:18 debian-armel kernel: [    0.160518] Initializing cgroup subsys blkio
+Aug 12 05:17:18 debian-armel kernel: [    0.160564] Initializing cgroup subsys perf_event
+Aug 12 05:17:18 debian-armel kernel: [    0.161407] CPU: Testing write buffer coherency: ok
+Aug 12 05:17:18 debian-armel kernel: [    0.169978] devtmpfs: initialized
+Aug 12 05:17:18 debian-armel kernel: [    0.175375] print_constraints: dummy: 
+Aug 12 05:17:18 debian-armel kernel: [    0.176984] NET: Registered protocol family 16
+Aug 12 05:17:18 debian-armel kernel: [    0.181355] Serial: AMBA PL011 UART driver
+Aug 12 05:17:18 debian-armel kernel: [    0.182090] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 12 05:17:18 debian-armel kernel: [    0.183321] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 12 05:17:18 debian-armel kernel: [    0.183622] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 12 05:17:18 debian-armel kernel: [    0.183905] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 12 05:17:18 debian-armel kernel: [    0.184703] PCI core found (slot 11)
+Aug 12 05:17:18 debian-armel kernel: [    0.185574] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 12 05:17:18 debian-armel kernel: [    0.185879] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.185919] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.185934] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 12 05:17:18 debian-armel kernel: [    0.186407] PCI: bus0: Fast back to back transfers disabled
+Aug 12 05:17:18 debian-armel kernel: [    0.186908] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 12 05:17:18 debian-armel kernel: [    0.187373] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 12 05:17:18 debian-armel kernel: [    0.187487] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.187526] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.193942] bio: create slab <bio-0> at 0
+Aug 12 05:17:18 debian-armel kernel: [    0.196936] vgaarb: loaded
+Aug 12 05:17:18 debian-armel kernel: [    0.200010] Registered led device: versatile:0
+Aug 12 05:17:18 debian-armel kernel: [    0.200172] Registered led device: versatile:1
+Aug 12 05:17:18 debian-armel kernel: [    0.200258] Registered led device: versatile:2
+Aug 12 05:17:18 debian-armel kernel: [    0.200351] Registered led device: versatile:3
+Aug 12 05:17:18 debian-armel kernel: [    0.200436] Registered led device: versatile:4
+Aug 12 05:17:18 debian-armel kernel: [    0.200529] Registered led device: versatile:5
+Aug 12 05:17:18 debian-armel kernel: [    0.200616] Registered led device: versatile:6
+Aug 12 05:17:18 debian-armel kernel: [    0.200757] Registered led device: versatile:7
+Aug 12 05:17:18 debian-armel kernel: [    0.200812] Switching to clocksource timer3
+Aug 12 05:17:18 debian-armel kernel: [    0.232174] NET: Registered protocol family 2
+Aug 12 05:17:18 debian-armel kernel: [    0.234308] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.238308] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.238400] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.238487] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 12 05:17:18 debian-armel kernel: [    0.238546] TCP reno registered
+Aug 12 05:17:18 debian-armel kernel: [    0.238595] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.238671] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.240585] NET: Registered protocol family 1
+Aug 12 05:17:18 debian-armel kernel: [    0.240809] PCI: CLS 32 bytes, default 32
+Aug 12 05:17:18 debian-armel kernel: [    0.242459] Unpacking initramfs...
+Aug 12 05:17:18 debian-armel kernel: [    0.433643] Freeing initrd memory: 2524K
+Aug 12 05:17:18 debian-armel kernel: [    0.433742] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 12 05:17:18 debian-armel kernel: [    0.437003] audit: initializing netlink socket (disabled)
+Aug 12 05:17:18 debian-armel kernel: [    0.437301] type=2000 audit(0.400:1): initialized
+Aug 12 05:17:18 debian-armel kernel: [    0.446021] VFS: Disk quotas dquot_6.5.2
+Aug 12 05:17:18 debian-armel kernel: [    0.446734] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 12 05:17:18 debian-armel kernel: [    0.447482] msgmni has been set to 245
+Aug 12 05:17:18 debian-armel kernel: [    0.452810] alg: No test for stdrng (krng)
+Aug 12 05:17:18 debian-armel kernel: [    0.453594] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 12 05:17:18 debian-armel kernel: [    0.453715] io scheduler noop registered
+Aug 12 05:17:18 debian-armel kernel: [    0.453747] io scheduler deadline registered
+Aug 12 05:17:18 debian-armel kernel: [    0.454840] io scheduler cfq registered (default)
+Aug 12 05:17:18 debian-armel kernel: [    0.455913] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 12 05:17:18 debian-armel kernel: [    0.456913] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 12 05:17:18 debian-armel kernel: [    0.486018] Console: switching to colour frame buffer device 80x30
+Aug 12 05:17:18 debian-armel kernel: [    0.492144] mousedev: PS/2 mouse device common for all mice
+Aug 12 05:17:18 debian-armel kernel: [    0.497593] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 12 05:17:18 debian-armel kernel: [    0.501812] TCP cubic registered
+Aug 12 05:17:18 debian-armel kernel: [    0.503709] NET: Registered protocol family 17
+Aug 12 05:17:18 debian-armel kernel: [    0.505405] Registering the dns_resolver key type
+Aug 12 05:17:18 debian-armel kernel: [    0.507188] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 12 05:17:18 debian-armel kernel: [    0.512227] registered taskstats version 1
+Aug 12 05:17:18 debian-armel kernel: [    0.514171] rtc-pl031 dev:e8: setting system clock to 2020-08-12 05:16:31 UTC (1597209391)
+Aug 12 05:17:18 debian-armel kernel: [    0.517021] Initializing network drop monitor service
+Aug 12 05:17:18 debian-armel kernel: [    0.522832] Freeing init memory: 120K
+Aug 12 05:17:18 debian-armel kernel: [    0.592469] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 12 05:17:18 debian-armel kernel: [    1.381232] SCSI subsystem initialized
+Aug 12 05:17:18 debian-armel kernel: [    1.388155] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 12 05:17:18 debian-armel kernel: [    1.391628] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 12 05:17:18 debian-armel kernel: [    1.445889] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 12 05:17:18 debian-armel kernel: [    1.456300] sym0: SCSI BUS has been reset.
+Aug 12 05:17:18 debian-armel kernel: [    1.458104] scsi0 : sym-2.2.3
+Aug 12 05:17:18 debian-armel kernel: [    4.462127] sym0: unknown interrupt(s) ignored, ISTAT=0x5 DSTAT=0x80 SIST=0x0
+Aug 12 05:17:18 debian-armel kernel: [    4.467018] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 12 05:17:18 debian-armel kernel: [    4.470311] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 12 05:17:18 debian-armel kernel: [    4.474415] scsi target0:0:0: Beginning Domain Validation
+Aug 12 05:17:18 debian-armel kernel: [    4.477102] scsi target0:0:0: Domain Validation skipping write tests
+Aug 12 05:17:18 debian-armel kernel: [    4.478677] scsi target0:0:0: Ending Domain Validation
+Aug 12 05:17:18 debian-armel kernel: [    4.483855] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 12 05:17:18 debian-armel kernel: [    4.488120] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 12 05:17:18 debian-armel kernel: [    4.492664] scsi target0:0:2: Beginning Domain Validation
+Aug 12 05:17:18 debian-armel kernel: [    4.496411] scsi target0:0:2: Domain Validation skipping write tests
+Aug 12 05:17:18 debian-armel kernel: [    4.498304] scsi target0:0:2: Ending Domain Validation
+Aug 12 05:17:18 debian-armel kernel: [    4.614523] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 12 05:17:18 debian-armel kernel: [    4.618468] sd 0:0:0:0: [sda] Write Protect is off
+Aug 12 05:17:18 debian-armel kernel: [    4.620079] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 12 05:17:18 debian-armel kernel: [    4.620378] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 12 05:17:18 debian-armel kernel: [    4.652136]  sda: sda1 sda2 < sda5 >
+Aug 12 05:17:18 debian-armel kernel: [    4.671933] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 12 05:17:18 debian-armel kernel: [    5.154676] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Aug 12 05:17:18 debian-armel kernel: [    5.157615] EXT4-fs (sda1): write access will be enabled during recovery
+Aug 12 05:17:18 debian-armel kernel: [    5.333843] EXT4-fs (sda1): recovery complete
+Aug 12 05:17:18 debian-armel kernel: [    5.336868] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 12 05:17:18 debian-armel kernel: [   10.013432] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 12 05:17:18 debian-armel kernel: [   10.017838] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 12 05:17:18 debian-armel kernel: [   10.075388] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 12 05:17:18 debian-armel kernel: [   10.138457] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 12 05:17:18 debian-armel kernel: [   10.237017] eth0: SMC91C11xFD (rev 1) at c89aa000 IRQ 25 [nowait]
+Aug 12 05:17:18 debian-armel kernel: [   10.239339] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 12 05:17:18 debian-armel kernel: [   10.242374] eth0: No PHY found
+Aug 12 05:17:18 debian-armel kernel: [   10.498459] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 12 05:17:18 debian-armel kernel: [   10.516982] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 12 05:17:18 debian-armel kernel: [   10.582914] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 12 05:17:18 debian-armel kernel: [   10.982871] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 12 05:17:18 debian-armel kernel: [   10.984603] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 12 05:17:18 debian-armel kernel: [   15.680648] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 12 05:17:18 debian-armel kernel: [   16.176334] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 12 05:17:18 debian-armel kernel: [   16.922499] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 12 05:17:18 debian-armel kernel: [   18.177706] loop: module loaded
+Aug 12 05:17:18 debian-armel kernel: [   37.086411] NET: Registered protocol family 10
+Aug 12 05:17:18 debian-armel kernel: [   37.569841] eth0: link up
+Aug 12 05:17:18 debian-armel kernel: [   39.722250] RPC: Registered named UNIX socket transport module.
+Aug 12 05:17:18 debian-armel kernel: [   39.725895] RPC: Registered udp transport module.
+Aug 12 05:17:18 debian-armel kernel: [   39.727156] RPC: Registered tcp transport module.
+Aug 12 05:17:18 debian-armel kernel: [   39.728350] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 12 05:17:18 debian-armel kernel: [   39.783921] FS-Cache: Loaded
+Aug 12 05:17:18 debian-armel kernel: [   39.835796] FS-Cache: Netfs 'nfs' registered for caching
+Aug 12 05:17:18 debian-armel kernel: [   39.893339] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 12 05:17:19 debian-armel kernel: [   48.221249] eth0: no IPv6 routers present
+Aug 12 05:17:20 debian-armel /usr/sbin/cron[1979]: (CRON) INFO (pidfile fd = 3)
+Aug 12 05:17:20 debian-armel /usr/sbin/cron[1983]: (CRON) STARTUP (fork ok)
+Aug 12 05:17:20 debian-armel /usr/sbin/cron[1983]: (CRON) INFO (Running @reboot jobs)
+Aug 12 06:17:01 debian-armel /USR/SBIN/CRON[2357]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 12 06:25:01 debian-armel /USR/SBIN/CRON[2363]: (root) CMD (test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily ))
+Aug 12 07:17:01 debian-armel /USR/SBIN/CRON[2829]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 12 08:17:01 debian-armel /USR/SBIN/CRON[2845]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 12 09:17:01 debian-armel /USR/SBIN/CRON[2883]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Aug 12 12:23:58 debian-armel kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Aug 12 12:23:58 debian-armel rsyslogd: [origin software="rsyslogd" swVersion="5.8.11" x-pid="1917" x-info="http://www.rsyslog.com"] start
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpuset
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Initializing cgroup subsys cpu
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Linux version 3.2.0-4-versatile (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 Debian 3.2.51-1
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] CPU: ARM926EJ-S [41069265] revision 5 (ARMv5TEJ), cr=00093177
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] CPU: VIVT data cache, VIVT instruction cache
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Machine: ARM-Versatile PB
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Memory policy: ECC disabled, Data cache writeback
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] sched_clock: 32 bits at 24MHz, resolution 41ns, wraps every 178956ms
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Kernel command line: root=/dev/sda1
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Memory: 128MB = 128MB total
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Memory: 123144k/123144k available, 7928k reserved, 0K highmem
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Virtual kernel memory layout:
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]     vmalloc : 0xc8800000 - 0xd8000000   ( 248 MB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]       .text : 0xc0008000 - 0xc036fe74   (3488 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]       .init : 0xc0370000 - 0xc038e000   ( 120 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]       .data : 0xc038e000 - 0xc03bf978   ( 199 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]        .bss : 0xc03bf99c - 0xc0422dcc   ( 398 kB)
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] NR_IRQS:192
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] VIC @f1140000: id 0x00041190, vendor 0x41
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] Console: colour dummy device 80x30
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] console [tty0] enabled
+Aug 12 12:23:58 debian-armel kernel: [    0.016165] Calibrating delay loop... 1093.63 BogoMIPS (lpj=5468160)
+Aug 12 12:23:58 debian-armel kernel: [    0.164617] pid_max: default: 32768 minimum: 301
+Aug 12 12:23:58 debian-armel kernel: [    0.167105] Security Framework initialized
+Aug 12 12:23:58 debian-armel kernel: [    0.168620] Mount-cache hash table entries: 512
+Aug 12 12:23:58 debian-armel kernel: [    0.176077] Initializing cgroup subsys cpuacct
+Aug 12 12:23:58 debian-armel kernel: [    0.176141] Initializing cgroup subsys memory
+Aug 12 12:23:58 debian-armel kernel: [    0.176327] Initializing cgroup subsys devices
+Aug 12 12:23:58 debian-armel kernel: [    0.176375] Initializing cgroup subsys freezer
+Aug 12 12:23:58 debian-armel kernel: [    0.176409] Initializing cgroup subsys net_cls
+Aug 12 12:23:58 debian-armel kernel: [    0.176442] Initializing cgroup subsys blkio
+Aug 12 12:23:58 debian-armel kernel: [    0.176482] Initializing cgroup subsys perf_event
+Aug 12 12:23:58 debian-armel kernel: [    0.177147] CPU: Testing write buffer coherency: ok
+Aug 12 12:23:58 debian-armel kernel: [    0.186087] devtmpfs: initialized
+Aug 12 12:23:58 debian-armel kernel: [    0.191161] print_constraints: dummy: 
+Aug 12 12:23:58 debian-armel kernel: [    0.193798] NET: Registered protocol family 16
+Aug 12 12:23:58 debian-armel kernel: [    0.198010] Serial: AMBA PL011 UART driver
+Aug 12 12:23:58 debian-armel kernel: [    0.198869] dev:f1: ttyAMA0 at MMIO 0x101f1000 (irq = 12) is a PL011 rev1
+Aug 12 12:23:58 debian-armel kernel: [    0.200093] dev:f2: ttyAMA1 at MMIO 0x101f2000 (irq = 13) is a PL011 rev1
+Aug 12 12:23:58 debian-armel kernel: [    0.200397] dev:f3: ttyAMA2 at MMIO 0x101f3000 (irq = 14) is a PL011 rev1
+Aug 12 12:23:58 debian-armel kernel: [    0.200682] fpga:09: ttyAMA3 at MMIO 0x10009000 (irq = 38) is a PL011 rev1
+Aug 12 12:23:58 debian-armel kernel: [    0.201434] PCI core found (slot 11)
+Aug 12 12:23:58 debian-armel kernel: [    0.202324] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 12 12:23:58 debian-armel kernel: [    0.202627] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.202667] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.202682] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 12 12:23:58 debian-armel kernel: [    0.203148] PCI: bus0: Fast back to back transfers disabled
+Aug 12 12:23:58 debian-armel kernel: [    0.203645] PCI map irq: slot 0, pin 1, devslot 12, irq: 27
+Aug 12 12:23:58 debian-armel kernel: [    0.204460] pci 0000:00:0c.0: BAR 2: assigned [mem 0x50000000-0x50001fff]
+Aug 12 12:23:58 debian-armel kernel: [    0.204600] pci 0000:00:0c.0: BAR 1: assigned [mem 0x50002000-0x500023ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.204640] pci 0000:00:0c.0: BAR 0: assigned [io  0x44000000-0x440000ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.211095] bio: create slab <bio-0> at 0
+Aug 12 12:23:58 debian-armel kernel: [    0.214126] vgaarb: loaded
+Aug 12 12:23:58 debian-armel kernel: [    0.218238] Registered led device: versatile:0
+Aug 12 12:23:58 debian-armel kernel: [    0.218360] Registered led device: versatile:1
+Aug 12 12:23:58 debian-armel kernel: [    0.218447] Registered led device: versatile:2
+Aug 12 12:23:58 debian-armel kernel: [    0.218540] Registered led device: versatile:3
+Aug 12 12:23:58 debian-armel kernel: [    0.218625] Registered led device: versatile:4
+Aug 12 12:23:58 debian-armel kernel: [    0.218719] Registered led device: versatile:5
+Aug 12 12:23:58 debian-armel kernel: [    0.218825] Registered led device: versatile:6
+Aug 12 12:23:58 debian-armel kernel: [    0.218991] Registered led device: versatile:7
+Aug 12 12:23:58 debian-armel kernel: [    0.219049] Switching to clocksource timer3
+Aug 12 12:23:58 debian-armel kernel: [    0.250060] NET: Registered protocol family 2
+Aug 12 12:23:58 debian-armel kernel: [    0.252317] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.257627] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.257736] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.257826] TCP: Hash tables configured (established 4096 bind 4096)
+Aug 12 12:23:58 debian-armel kernel: [    0.257883] TCP reno registered
+Aug 12 12:23:58 debian-armel kernel: [    0.257932] UDP hash table entries: 256 (order: 0, 4096 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.258009] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.259860] NET: Registered protocol family 1
+Aug 12 12:23:58 debian-armel kernel: [    0.260046] PCI: CLS 32 bytes, default 32
+Aug 12 12:23:58 debian-armel kernel: [    0.261476] Unpacking initramfs...
+Aug 12 12:23:58 debian-armel kernel: [    0.490775] Freeing initrd memory: 2524K
+Aug 12 12:23:58 debian-armel kernel: [    0.490887] NetWinder Floating Point Emulator V0.97 (double precision)
+Aug 12 12:23:58 debian-armel kernel: [    0.494261] audit: initializing netlink socket (disabled)
+Aug 12 12:23:58 debian-armel kernel: [    0.494765] type=2000 audit(0.460:1): initialized
+Aug 12 12:23:58 debian-armel kernel: [    0.504155] VFS: Disk quotas dquot_6.5.2
+Aug 12 12:23:58 debian-armel kernel: [    0.505110] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Aug 12 12:23:58 debian-armel kernel: [    0.505851] msgmni has been set to 245
+Aug 12 12:23:58 debian-armel kernel: [    0.510638] alg: No test for stdrng (krng)
+Aug 12 12:23:58 debian-armel kernel: [    0.511450] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Aug 12 12:23:58 debian-armel kernel: [    0.511604] io scheduler noop registered
+Aug 12 12:23:58 debian-armel kernel: [    0.511643] io scheduler deadline registered
+Aug 12 12:23:58 debian-armel kernel: [    0.512826] io scheduler cfq registered (default)
+Aug 12 12:23:58 debian-armel kernel: [    0.513957] clcd-pl11x dev:20: PL110 rev0 at 0x10120000
+Aug 12 12:23:58 debian-armel kernel: [    0.515253] clcd-pl11x dev:20: Versatile hardware, VGA display
+Aug 12 12:23:58 debian-armel kernel: [    0.554057] Console: switching to colour frame buffer device 80x30
+Aug 12 12:23:58 debian-armel kernel: [    0.561391] mousedev: PS/2 mouse device common for all mice
+Aug 12 12:23:58 debian-armel kernel: [    0.565117] rtc-pl031 dev:e8: rtc core: registered pl031 as rtc0
+Aug 12 12:23:58 debian-armel kernel: [    0.572880] TCP cubic registered
+Aug 12 12:23:58 debian-armel kernel: [    0.576180] NET: Registered protocol family 17
+Aug 12 12:23:58 debian-armel kernel: [    0.577665] Registering the dns_resolver key type
+Aug 12 12:23:58 debian-armel kernel: [    0.580445] VFP support v0.3: implementor 41 architecture 1 part 10 variant 9 rev 0
+Aug 12 12:23:58 debian-armel kernel: [    0.588752] registered taskstats version 1
+Aug 12 12:23:58 debian-armel kernel: [    0.591650] rtc-pl031 dev:e8: setting system clock to 2020-08-12 12:23:11 UTC (1597234991)
+Aug 12 12:23:58 debian-armel kernel: [    0.594754] Initializing network drop monitor service
+Aug 12 12:23:58 debian-armel kernel: [    0.601071] Freeing init memory: 120K
+Aug 12 12:23:58 debian-armel kernel: [    0.661160] input: AT Raw Set 2 keyboard as /devices/fpga:06/serio0/input/input0
+Aug 12 12:23:58 debian-armel kernel: [    1.516129] SCSI subsystem initialized
+Aug 12 12:23:58 debian-armel kernel: [    1.523431] PCI: enabling device 0000:00:0c.0 (0100 -> 0103)
+Aug 12 12:23:58 debian-armel kernel: [    1.561930] sym0: <895a> rev 0x0 at pci 0000:00:0c.0 irq 27
+Aug 12 12:23:58 debian-armel kernel: [    1.580582] sym0: No NVRAM, ID 7, Fast-40, LVD, parity checking
+Aug 12 12:23:58 debian-armel kernel: [    1.589857] sym0: SCSI BUS has been reset.
+Aug 12 12:23:58 debian-armel kernel: [    1.592270] scsi0 : sym-2.2.3
+Aug 12 12:23:58 debian-armel kernel: [    4.575507] sym0: unknown interrupt(s) ignored, ISTAT=0x5 DSTAT=0x80 SIST=0x0
+Aug 12 12:23:58 debian-armel kernel: [    4.580169] scsi 0:0:0:0: Direct-Access     QEMU     QEMU HARDDISK    2.5+ PQ: 0 ANSI: 5
+Aug 12 12:23:58 debian-armel kernel: [    4.583288] scsi target0:0:0: tagged command queuing enabled, command queue depth 16.
+Aug 12 12:23:58 debian-armel kernel: [    4.587748] scsi target0:0:0: Beginning Domain Validation
+Aug 12 12:23:58 debian-armel kernel: [    4.590498] scsi target0:0:0: Domain Validation skipping write tests
+Aug 12 12:23:58 debian-armel kernel: [    4.592359] scsi target0:0:0: Ending Domain Validation
+Aug 12 12:23:58 debian-armel kernel: [    4.596669] scsi 0:0:2:0: CD-ROM            QEMU     QEMU CD-ROM      2.5+ PQ: 0 ANSI: 5
+Aug 12 12:23:58 debian-armel kernel: [    4.599626] scsi target0:0:2: tagged command queuing enabled, command queue depth 16.
+Aug 12 12:23:58 debian-armel kernel: [    4.602690] scsi target0:0:2: Beginning Domain Validation
+Aug 12 12:23:58 debian-armel kernel: [    4.605277] scsi target0:0:2: Domain Validation skipping write tests
+Aug 12 12:23:58 debian-armel kernel: [    4.606770] scsi target0:0:2: Ending Domain Validation
+Aug 12 12:23:58 debian-armel kernel: [    4.705646] sd 0:0:0:0: [sda] 52428800 512-byte logical blocks: (26.8 GB/25.0 GiB)
+Aug 12 12:23:58 debian-armel kernel: [    4.710403] sd 0:0:0:0: [sda] Write Protect is off
+Aug 12 12:23:58 debian-armel kernel: [    4.712067] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 12 12:23:58 debian-armel kernel: [    4.712578] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Aug 12 12:23:58 debian-armel kernel: [    4.761472]  sda: sda1 sda2 < sda5 >
+Aug 12 12:23:58 debian-armel kernel: [    4.769322] sd 0:0:0:0: [sda] Attached SCSI disk
+Aug 12 12:23:58 debian-armel kernel: [    5.244352] EXT4-fs (sda1): INFO: recovery required on readonly filesystem
+Aug 12 12:23:58 debian-armel kernel: [    5.248406] EXT4-fs (sda1): write access will be enabled during recovery
+Aug 12 12:23:58 debian-armel kernel: [    5.699913] EXT4-fs (sda1): recovery complete
+Aug 12 12:23:58 debian-armel kernel: [    5.705543] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Aug 12 12:23:58 debian-armel kernel: [   10.436917] sr0: scsi3-mmc drive: 16x/50x cd/rw xa/form2 cdda tray
+Aug 12 12:23:58 debian-armel kernel: [   10.443775] cdrom: Uniform CD-ROM driver Revision: 3.20
+Aug 12 12:23:58 debian-armel kernel: [   10.512900] smc91x.c: v1.1, sep 22 2004 by Nicolas Pitre <nico@fluxnic.net>
+Aug 12 12:23:58 debian-armel kernel: [   10.531932] eth0: SMC91C11xFD (rev 1) at c89aa000 IRQ 25 [nowait]
+Aug 12 12:23:58 debian-armel kernel: [   10.533893] eth0: Ethernet addr: 52:54:00:12:34:56
+Aug 12 12:23:58 debian-armel kernel: [   10.535795] eth0: No PHY found
+Aug 12 12:23:58 debian-armel kernel: [   10.575211] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 12 12:23:58 debian-armel kernel: [   10.927292] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Aug 12 12:23:58 debian-armel kernel: [   10.952256] sr 0:0:2:0: Attached scsi generic sg1 type 5
+Aug 12 12:23:58 debian-armel kernel: [   11.015675] input: ImExPS/2 Generic Explorer Mouse as /devices/fpga:07/serio1/input/input1
+Aug 12 12:23:58 debian-armel kernel: [   11.392909] rtc-ds1307 0-0068: rtc core: registered ds1338 as rtc1
+Aug 12 12:23:58 debian-armel kernel: [   11.394876] rtc-ds1307 0-0068: 56 bytes nvram
+Aug 12 12:23:58 debian-armel kernel: [   16.313648] Adding 496636k swap on /dev/sda5.  Priority:-1 extents:1 across:496636k 
+Aug 12 12:23:58 debian-armel kernel: [   16.676518] EXT4-fs (sda1): re-mounted. Opts: (null)
+Aug 12 12:23:58 debian-armel kernel: [   17.484478] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Aug 12 12:23:58 debian-armel kernel: [   18.710765] loop: module loaded
+Aug 12 12:23:58 debian-armel kernel: [   37.329590] NET: Registered protocol family 10
+Aug 12 12:23:58 debian-armel kernel: [   37.921804] eth0: link up
+Aug 12 12:23:58 debian-armel kernel: [   39.971544] RPC: Registered named UNIX socket transport module.
+Aug 12 12:23:58 debian-armel kernel: [   39.976014] RPC: Registered udp transport module.
+Aug 12 12:23:58 debian-armel kernel: [   39.977347] RPC: Registered tcp transport module.
+Aug 12 12:23:58 debian-armel kernel: [   39.978670] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Aug 12 12:23:58 debian-armel kernel: [   40.070468] FS-Cache: Loaded
+Aug 12 12:23:58 debian-armel kernel: [   40.123181] FS-Cache: Netfs 'nfs' registered for caching
+Aug 12 12:23:58 debian-armel kernel: [   40.178205] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Aug 12 12:23:59 debian-armel kernel: [   48.895478] eth0: no IPv6 routers present
+Aug 12 12:24:00 debian-armel /usr/sbin/cron[1976]: (CRON) INFO (pidfile fd = 3)
+Aug 12 12:24:00 debian-armel /usr/sbin/cron[1981]: (CRON) STARTUP (fork ok)
+Aug 12 12:24:00 debian-armel /usr/sbin/cron[1981]: (CRON) INFO (Running @reboot jobs)

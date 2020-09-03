@@ -1,0 +1,159 @@
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 12:56:47 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 12:56:47 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 12:56:47 debian-armel kernel: [    0.224791] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 12:56:47 debian-armel kernel: [    0.225283] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.225345] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 12:56:47 debian-armel kernel: [    0.225367] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 12:56:47 debian-armel kernel: [    0.248960] Registered led device: versatile:0
+Aug 10 12:56:47 debian-armel kernel: [    0.249144] Registered led device: versatile:1
+Aug 10 12:56:47 debian-armel kernel: [    0.249266] Registered led device: versatile:2
+Aug 10 12:56:47 debian-armel kernel: [    0.249532] Registered led device: versatile:3
+Aug 10 12:56:47 debian-armel kernel: [    0.249665] Registered led device: versatile:4
+Aug 10 12:56:47 debian-armel kernel: [    0.249800] Registered led device: versatile:5
+Aug 10 12:56:47 debian-armel kernel: [    0.249932] Registered led device: versatile:6
+Aug 10 12:56:47 debian-armel kernel: [    0.250096] Registered led device: versatile:7
+Aug 10 12:56:47 debian-armel kernel: [    0.311580] PCI: CLS 32 bytes, default 32
+Aug 10 12:56:47 debian-armel kernel: [    5.318153] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 12:56:47 debian-armel kernel: [   13.897194] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 12:56:47 debian-armel kernel: [   14.033016] eth0: No PHY found
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 13:38:08 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 13:38:08 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 13:38:08 debian-armel kernel: [    0.285130] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 13:38:08 debian-armel kernel: [    0.285851] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.285936] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 13:38:08 debian-armel kernel: [    0.285961] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 13:38:08 debian-armel kernel: [    0.323837] Registered led device: versatile:0
+Aug 10 13:38:08 debian-armel kernel: [    0.324018] Registered led device: versatile:1
+Aug 10 13:38:08 debian-armel kernel: [    0.324138] Registered led device: versatile:2
+Aug 10 13:38:08 debian-armel kernel: [    0.324266] Registered led device: versatile:3
+Aug 10 13:38:08 debian-armel kernel: [    0.324383] Registered led device: versatile:4
+Aug 10 13:38:08 debian-armel kernel: [    0.324512] Registered led device: versatile:5
+Aug 10 13:38:08 debian-armel kernel: [    0.324632] Registered led device: versatile:6
+Aug 10 13:38:08 debian-armel kernel: [    0.324806] Registered led device: versatile:7
+Aug 10 13:38:08 debian-armel kernel: [    0.402489] PCI: CLS 32 bytes, default 32
+Aug 10 13:38:08 debian-armel kernel: [    5.624209] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 13:38:08 debian-armel kernel: [   15.680627] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 13:38:08 debian-armel kernel: [   16.081713] eth0: No PHY found
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 13:44:17 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 13:44:17 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 13:44:17 debian-armel kernel: [    0.336829] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 13:44:17 debian-armel kernel: [    0.337359] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.337434] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 13:44:17 debian-armel kernel: [    0.337458] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 13:44:17 debian-armel kernel: [    0.362257] Registered led device: versatile:0
+Aug 10 13:44:17 debian-armel kernel: [    0.362440] Registered led device: versatile:1
+Aug 10 13:44:17 debian-armel kernel: [    0.362560] Registered led device: versatile:2
+Aug 10 13:44:17 debian-armel kernel: [    0.362688] Registered led device: versatile:3
+Aug 10 13:44:17 debian-armel kernel: [    0.362805] Registered led device: versatile:4
+Aug 10 13:44:17 debian-armel kernel: [    0.362933] Registered led device: versatile:5
+Aug 10 13:44:17 debian-armel kernel: [    0.363053] Registered led device: versatile:6
+Aug 10 13:44:17 debian-armel kernel: [    0.363216] Registered led device: versatile:7
+Aug 10 13:44:17 debian-armel kernel: [    0.426457] PCI: CLS 32 bytes, default 32
+Aug 10 13:44:17 debian-armel kernel: [    5.497942] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 13:44:17 debian-armel kernel: [    6.553502] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175159
+Aug 10 13:44:17 debian-armel kernel: [    6.558796] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175237
+Aug 10 13:44:17 debian-armel kernel: [    6.559506] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175240
+Aug 10 13:44:17 debian-armel kernel: [    6.559922] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175162
+Aug 10 13:44:17 debian-armel kernel: [    6.560287] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175193
+Aug 10 13:44:17 debian-armel kernel: [    6.560471] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175161
+Aug 10 13:44:17 debian-armel kernel: [    6.560755] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175300
+Aug 10 13:44:17 debian-armel kernel: [    6.561047] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175617
+Aug 10 13:44:17 debian-armel kernel: [    6.561281] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175633
+Aug 10 13:44:17 debian-armel kernel: [    6.561450] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175639
+Aug 10 13:44:17 debian-armel kernel: [    6.561632] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175621
+Aug 10 13:44:17 debian-armel kernel: [    6.561797] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175652
+Aug 10 13:44:17 debian-armel kernel: [    6.562095] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175618
+Aug 10 13:44:17 debian-armel kernel: [    6.562350] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175640
+Aug 10 13:44:17 debian-armel kernel: [    6.562501] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175667
+Aug 10 13:44:17 debian-armel kernel: [    6.562647] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175638
+Aug 10 13:44:17 debian-armel kernel: [    6.562779] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175627
+Aug 10 13:44:17 debian-armel kernel: [    6.562916] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175641
+Aug 10 13:44:17 debian-armel kernel: [    6.563099] EXT4-fs (sda1): ext4_orphan_cleanup: deleting unreferenced inode 1175644
+Aug 10 13:44:17 debian-armel kernel: [   13.962055] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 13:44:17 debian-armel kernel: [   14.171110] eth0: No PHY found
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 10 17:39:29 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 10 17:39:29 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 10 17:39:29 debian-armel kernel: [    0.222075] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 10 17:39:29 debian-armel kernel: [    0.222567] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.222629] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 10 17:39:29 debian-armel kernel: [    0.222652] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 10 17:39:29 debian-armel kernel: [    0.248265] Registered led device: versatile:0
+Aug 10 17:39:29 debian-armel kernel: [    0.248439] Registered led device: versatile:1
+Aug 10 17:39:29 debian-armel kernel: [    0.248559] Registered led device: versatile:2
+Aug 10 17:39:29 debian-armel kernel: [    0.248688] Registered led device: versatile:3
+Aug 10 17:39:29 debian-armel kernel: [    0.248939] Registered led device: versatile:4
+Aug 10 17:39:29 debian-armel kernel: [    0.249154] Registered led device: versatile:5
+Aug 10 17:39:29 debian-armel kernel: [    0.249346] Registered led device: versatile:6
+Aug 10 17:39:29 debian-armel kernel: [    0.249543] Registered led device: versatile:7
+Aug 10 17:39:29 debian-armel kernel: [    0.316328] PCI: CLS 32 bytes, default 32
+Aug 10 17:39:29 debian-armel kernel: [    5.299118] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 10 17:39:29 debian-armel kernel: [   14.382917] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 10 17:39:29 debian-armel kernel: [   14.586148] eth0: No PHY found
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 12 05:17:18 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 12 05:17:18 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 12 05:17:18 debian-armel kernel: [    0.185574] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 12 05:17:18 debian-armel kernel: [    0.185879] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.185919] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 12 05:17:18 debian-armel kernel: [    0.185934] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 12 05:17:18 debian-armel kernel: [    0.200010] Registered led device: versatile:0
+Aug 12 05:17:18 debian-armel kernel: [    0.200172] Registered led device: versatile:1
+Aug 12 05:17:18 debian-armel kernel: [    0.200258] Registered led device: versatile:2
+Aug 12 05:17:18 debian-armel kernel: [    0.200351] Registered led device: versatile:3
+Aug 12 05:17:18 debian-armel kernel: [    0.200436] Registered led device: versatile:4
+Aug 12 05:17:18 debian-armel kernel: [    0.200529] Registered led device: versatile:5
+Aug 12 05:17:18 debian-armel kernel: [    0.200616] Registered led device: versatile:6
+Aug 12 05:17:18 debian-armel kernel: [    0.200757] Registered led device: versatile:7
+Aug 12 05:17:18 debian-armel kernel: [    0.240809] PCI: CLS 32 bytes, default 32
+Aug 12 05:17:18 debian-armel kernel: [    4.620079] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 12 05:17:18 debian-armel kernel: [   10.138457] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 12 05:17:18 debian-armel kernel: [   10.242374] eth0: No PHY found
+Aug 12 05:17:19 debian-armel kernel: [   48.221249] eth0: no IPv6 routers present
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] On node 0 totalpages: 32768
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] free_area_init_node: node 0, pgdat c03be624, node_mem_map c0423000
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 256 pages used for memmap
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 0 pages reserved
+Aug 12 12:23:58 debian-armel kernel: [    0.000000]   Normal zone: 32512 pages, LIFO batch:7
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+Aug 12 12:23:58 debian-armel kernel: [    0.000000] pcpu-alloc: [0] 0 
+Aug 12 12:23:58 debian-armel kernel: [    0.202324] pci 0000:00:0c.0: [1000:0012] type 0 class 0x000100
+Aug 12 12:23:58 debian-armel kernel: [    0.202627] pci 0000:00:0c.0: reg 10: [io  0x0000-0x00ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.202667] pci 0000:00:0c.0: reg 14: [mem 0x00000000-0x000003ff]
+Aug 12 12:23:58 debian-armel kernel: [    0.202682] pci 0000:00:0c.0: reg 18: [mem 0x00000000-0x00001fff]
+Aug 12 12:23:58 debian-armel kernel: [    0.218238] Registered led device: versatile:0
+Aug 12 12:23:58 debian-armel kernel: [    0.218360] Registered led device: versatile:1
+Aug 12 12:23:58 debian-armel kernel: [    0.218447] Registered led device: versatile:2
+Aug 12 12:23:58 debian-armel kernel: [    0.218540] Registered led device: versatile:3
+Aug 12 12:23:58 debian-armel kernel: [    0.218625] Registered led device: versatile:4
+Aug 12 12:23:58 debian-armel kernel: [    0.218719] Registered led device: versatile:5
+Aug 12 12:23:58 debian-armel kernel: [    0.218825] Registered led device: versatile:6
+Aug 12 12:23:58 debian-armel kernel: [    0.218991] Registered led device: versatile:7
+Aug 12 12:23:58 debian-armel kernel: [    0.260046] PCI: CLS 32 bytes, default 32
+Aug 12 12:23:58 debian-armel kernel: [    4.712067] sd 0:0:0:0: [sda] Mode Sense: 63 00 00 08
+Aug 12 12:23:58 debian-armel kernel: [   10.535795] eth0: No PHY found
+Aug 12 12:23:58 debian-armel kernel: [   10.575211] sr 0:0:2:0: Attached scsi CD-ROM sr0
+Aug 12 12:23:59 debian-armel kernel: [   48.895478] eth0: no IPv6 routers present

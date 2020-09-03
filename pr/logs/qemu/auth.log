@@ -1,0 +1,48 @@
+Aug 10 12:56:53 debian-armel sshd[2113]: Server listening on 0.0.0.0 port 22.
+Aug 10 12:56:53 debian-armel sshd[2113]: Server listening on :: port 22.
+Aug 10 12:57:51 debian-armel login[2370]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 10 12:57:51 debian-armel login[2377]: ROOT LOGIN  on '/dev/tty1'
+Aug 10 13:17:01 debian-armel CRON[2517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 10 13:17:01 debian-armel CRON[2517]: pam_unix(cron:session): session closed for user root
+Aug 10 13:38:14 debian-armel sshd[2081]: Server listening on 0.0.0.0 port 22.
+Aug 10 13:38:14 debian-armel sshd[2081]: Server listening on :: port 22.
+Aug 10 13:38:40 debian-armel login[2340]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 10 13:38:40 debian-armel login[2347]: ROOT LOGIN  on '/dev/tty1'
+Aug 10 13:41:33 debian-armel login[2340]: pam_unix(login:session): session closed for user root
+Aug 10 13:44:23 debian-armel sshd[2091]: Server listening on 0.0.0.0 port 22.
+Aug 10 13:44:23 debian-armel sshd[2091]: Server listening on :: port 22.
+Aug 10 13:44:33 debian-armel login[2345]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 10 13:44:33 debian-armel login[2352]: ROOT LOGIN  on '/dev/tty1'
+Aug 10 14:17:01 debian-armel CRON[3358]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 10 14:17:02 debian-armel CRON[3358]: pam_unix(cron:session): session closed for user root
+Aug 10 15:17:02 debian-armel CRON[3664]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 10 15:17:09 debian-armel CRON[3664]: pam_unix(cron:session): session closed for user root
+Aug 10 16:17:03 debian-armel CRON[3673]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 10 16:17:07 debian-armel CRON[3673]: pam_unix(cron:session): session closed for user root
+Aug 10 17:17:02 debian-armel CRON[3682]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 10 17:17:06 debian-armel CRON[3682]: pam_unix(cron:session): session closed for user root
+Aug 10 17:39:37 debian-armel sshd[2289]: Server listening on 0.0.0.0 port 22.
+Aug 10 17:39:37 debian-armel sshd[2289]: Server listening on :: port 22.
+Aug 10 17:39:53 debian-armel login[2348]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 10 17:39:53 debian-armel login[2355]: ROOT LOGIN  on '/dev/tty1'
+Aug 12 05:17:22 debian-armel sshd[2097]: Server listening on 0.0.0.0 port 22.
+Aug 12 05:17:22 debian-armel sshd[2097]: Server listening on :: port 22.
+Aug 12 05:17:36 debian-armel login[2320]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 12 05:17:36 debian-armel login[2327]: ROOT LOGIN  on '/dev/tty1'
+Aug 12 06:17:01 debian-armel CRON[2356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 12 06:17:01 debian-armel CRON[2356]: pam_unix(cron:session): session closed for user root
+Aug 12 06:25:01 debian-armel CRON[2362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 12 06:25:33 debian-armel CRON[2362]: pam_unix(cron:session): session closed for user root
+Aug 12 07:17:01 debian-armel CRON[2828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 12 07:17:01 debian-armel CRON[2828]: pam_unix(cron:session): session closed for user root
+Aug 12 08:17:01 debian-armel CRON[2844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 12 08:17:01 debian-armel CRON[2844]: pam_unix(cron:session): session closed for user root
+Aug 12 09:17:01 debian-armel CRON[2882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Aug 12 09:17:01 debian-armel CRON[2882]: pam_unix(cron:session): session closed for user root
+Aug 12 09:45:53 debian-armel login[2320]: pam_unix(login:session): session closed for user root
+Aug 12 09:45:57 debian-armel login[2903]: pam_unix(login:auth): check pass; user unknown
+Aug 12 09:45:57 debian-armel login[2903]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Aug 12 12:24:02 debian-armel sshd[2090]: Server listening on 0.0.0.0 port 22.
+Aug 12 12:24:03 debian-armel sshd[2090]: Server listening on :: port 22.
+Aug 12 12:24:12 debian-armel login[2319]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Aug 12 12:24:12 debian-armel login[2326]: ROOT LOGIN  on '/dev/tty1'
